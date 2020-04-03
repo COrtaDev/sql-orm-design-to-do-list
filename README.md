@@ -23,6 +23,9 @@ You'll need to start out with using the Sequelize CLI to initialize your
 application. Then, generate models and migrations and seeders, if you'd like.
 Use them to make the application work.
 
+Download the starter project from
+https://github.com/appacademy-starters/sql-orm-design-to-do-list.
+
 ## Importing your models to use
 
 To import your models, say you had two named `Task` and `Category`, write a
@@ -32,7 +35,7 @@ statement like this:
 const { Task, Category } = require('./models');
 ```
 
-![example solution](https://assets.aaonline.io/Module-JavaScript/oop/oops-i-forgot-solution.gif)
+![example solution]
 
 ## Screen reminder
 
@@ -312,3 +315,4 @@ And, this will complete creating the task.
 [To-Do Item Command Line Utility]: https://github.com/appacademy-starters/oop-task-manager-cli
 [npm]: https://www.npmjs.com
 [chalk]: https://github.com/chalk/chalk
+[example solution]: https://appacademy-open-assets.s3-us-west-1.amazonaws.com/Module-JavaScript/oop/oops-i-forgot-solution.gif
